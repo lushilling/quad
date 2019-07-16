@@ -1,3 +1,4 @@
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -16,9 +17,6 @@ spec:
       containers:
       - name: client
         image: lushilling/client:latest
-<<<<<<< HEAD
-=======
         imagePullPolicy: Always
->>>>>>> 947571ec5bd105a7559f3faecd3ef3033a2cd5b6
         ports:
         - containerPort: 8080
