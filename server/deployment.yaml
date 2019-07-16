@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: server
-        image: lushilling/quad-server:latest
+        image: lushilling/server:latest
         ports:
         - containerPort: 8080
         env:
