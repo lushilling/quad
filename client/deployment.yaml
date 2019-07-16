@@ -16,6 +16,6 @@ spec:
       containers:
       - name: client
         image: lushilling/client:latest
-        imagePullPolicy:Always
+        imagePullPolicy: Always
         ports:
         - containerPort: 8080
